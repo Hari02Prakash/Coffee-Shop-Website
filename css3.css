@@ -1,0 +1,573 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	
+}
+.landing{
+	width: 1366px;
+	height: 2750px;
+	background-color: aqua;
+	margin: 0 auto;
+}
+.header{
+	background:url("images/paper_bg.jpg");
+	height: 270px;
+	width: 1366px;
+	
+	position: relative;
+}
+.logodiv{
+	position: absolute;
+	width:1366px;
+	height: 100px;
+	
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	margin-top: -245px;
+}
+.list{
+	position: absolute;
+	width: 1366px;
+	height: 100px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -128px;
+}
+.list ul{
+	display: flex;
+}
+.lista{
+	list-style: none;
+	margin-left: 20px;
+	font-family: 'Poppins', serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.lista a{
+	text-decoration: none;
+	color: black;
+}
+.banner{
+		height: 700px;
+	width: 1366px;
+	background-color:antiquewhite;
+	
+}
+.bannerleft{
+	background:url("images/bn3-4.webp");
+	filter: blur(3px);
+	height: 700px;
+	width: 700px;
+	background-size: cover;
+	position: relative;
+	
+}
+.bannerh{
+	position: absolute;
+	width: 532px;
+	height: 350px;
+	
+	text-align: center;
+	margin-left: 89px;
+	padding-top: 264px;
+	margin-top: -739px;
+}
+.pure{
+	font-size: 90px;
+	font-family:  'Poppins', serif;
+	color: white;
+	font-weight: bolder;
+}
+.latin{
+	font-size:60px;
+	font-family:  'Poppins', serif;
+	color: #ffffff;
+}
+.bannerright{
+	background: url("images/bread-18987_1280.jpg");
+	width: 666px;
+	height: 350px;
+	background-size: cover;
+	float: right;
+	margin-top:-700px;
+}
+.taste{
+	width: 400px;
+	height: 200px;
+	
+	margin-left: 265px;
+	margin-top: 65px;
+}
+.own{
+		font-size: 60px;
+	font-family:  'Poppins', serif;
+	color:  #4D8B55;
+	font-weight: bolder;
+}
+.for{
+	font-size: 40px;
+	font-weight: bolder;
+}
+.bannerrighta{
+	background-color:#4D8B55;
+	background-image: url("images/branch-bg.png");
+	width: 333px;
+	height: 350px;
+	float: right;
+	margin-top: -350px;
+	margin-right: 333px;
+}
+.reserv{
+	width: 300px;
+	height: 145px;
+	
+	text-align: center;
+	margin: 0 auto;
+}
+.table{
+	margin-top: 50px;
+	font-size: 30px;
+	font-family: 'Poppins', serif;
+	font-weight: 700;
+}
+.num{
+	margin-top: 40px;
+	color: white;
+	font-weight: bolder;
+}
+.btn{
+		color: white;
+	padding: 12px 60px;
+	border-radius: 30px;
+	background:#151515;
+	margin-left: 77px;
+	margin-top: 30px;
+}
+.time{
+	width: 333px;
+	height: 350px;
+	float: right;
+	background-color: aliceblue;
+	margin-top: -350px;
+	
+}
+.openh{
+	text-align: center;
+	font-family:'Poppins', serif;
+	color: #4D8B55;
+	font-size: 30px;
+	margin-top: 48px;
+}
+.open td{
+	font-family: Verdana ;
+	font-weight: 700;
+}
+.day{
+	
+}
+.hour{
+	color: #4D8B55;
+}
+.menu{
+	background: url("images/paper_bg.jpg");
+		height: 700px;
+	width: 1366px;
+	
+}
+.kaffamenu{
+	width: 550px;
+	height: 150px;
+	
+	margin: 0 auto;
+	text-align: center;
+}
+.kmenu{
+	color: #4D8B55;
+	font-size: 16px;
+	font-weight: 700;
+	font-family:'Poppins', serif;
+	padding-top: 50px;
+}
+.house{
+	font-family:'Poppins', serif;
+	font-weight: 700;
+	font-size: 45px;
+	
+}
+.sandwiches{
+	width: 600px;
+	height: 60px;
+	
+	display: flex;
+	margin: 0 auto;
+}
+.sweet{
+	margin:0 auto;
+	
+	font-size: 16px;
+}
+.img{
+	display: flex;
+}
+.logos{
+	width: 148px;
+	height: 462px;
+	
+	margin-left: 219px;
+}
+.logoh{
+	width: 146px;
+	height: 462px;
+	
+	margin-left: 0px;
+}
+.capu{
+	margin-top: 41px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.flat{
+	margin-top: 78px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.double{
+	margin-top: 81px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.irish{
+	margin-top: 81px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.dollar{
+	width: 148px;
+	height: 462px;
+	
+	margin-left: 40px;
+}
+.casha{
+	color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 45px;
+}
+.cashb{
+	color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 87px;
+}
+.cashc{
+	color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 84px;
+}
+.cashd{
+	color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top:83px;
+}
+.logosa{
+		width: 148px;
+	height: 462px;
+	
+}
+.logoi{
+		width: 146px;
+	height: 462px;
+	
+}
+.latte{
+	margin-top: 41px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.raw{
+		margin-top: 78px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.mocca{
+	margin-top: 81px;
+	font-size: 20px;
+	font-family:'Poppins', serif;
+}
+.dollara{
+		width: 148px;
+	height: 462px;
+	
+	margin-left: 40px;
+}
+.cashe{
+		color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 41px;
+}
+.cashf{
+	color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 87px;
+}
+.cashg{
+	color:#4D8B55;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 87px;
+}
+
+.about{
+	background-color:#4D8B55;
+	background-image: url("images/branch-bg.png");
+	width: 1366px;
+	height: 700px;
+	
+}
+
+.our{
+	text-align: center;
+	color: white;
+	font-weight: 900;
+	font-family:'Poppins', serif;
+	font-size: 50px;
+	padding-top: 15px;
+}
+.aboutimg{
+	width: 986px;
+	height: 502px;
+	margin-top: 63px;
+	margin-right: 50px;
+	background-size: cover;
+	float: right;
+	position: relative;
+	box-shadow: 0 0 30px 0;
+}
+.white{
+	position: absolute;
+	width: 491px;
+	height: 344px;
+	background:url("images/paper_bg.jpg");
+	margin-top:34px;
+	margin-left:50px;
+	box-shadow: 0 0 30px 0;
+}
+.distribution{
+	color: #4D8B55;
+	font-weight: 900;
+	font-size: 44px;
+	font-family:'Poppins', serif;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.whitepara{
+	color: black;
+	font-family:'Poppins', serif;
+	margin-top: 20px;
+	margin-left: 20px;
+	line-height: 1.2;
+	
+	word-spacing: 11;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.bannerj{
+	background:url("images/black-bg.png");
+	height: 380px;
+	width: 100%;
+	background-size: cover;
+}
+.kaffa{
+	width: 30%;
+	height: 100%;
+	background-color: aqu;
+	margin-left: 70px;
+	float: left;
+}
+.klogo{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.kpara{
+	margin: 20px;
+	line-height: 20px;
+	color: white;
+}
+.tw{
+	margin-left:20px;
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+}
+.ins{
+	margin-left:20px;
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+}
+.fb{
+	margin-left: 20px;
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+}
+.yt{
+	margin-left: 20px;
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+}
+.info{
+		width: 30%;
+	height: 100%;
+	
+	margin-left: 46px;
+	float: left;
+}
+.infoh{
+	color: #4D8B55;
+font-weight: 700;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.location{
+	width: 100%;
+	height: 40px;
+	
+	margin-top: 40px;
+}
+.loclogo{
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	float: left;
+	margin-left: 20px;
+}
+.oura{
+	float: right;
+	margin-right: 294px;
+	color:  #4d8b55;
+	font-weight: bolder;
+	
+}
+.locp{
+	float: right;
+	margin-top:6px;
+	margin-right: 185px;
+	font-size: 16px;
+	 color: white;
+}
+.phones{
+	width: 100%;
+	height: 60px;
+	
+	margin-top: 40px;
+}
+.phonelogo{
+	width: 26px;
+	height: 26px;
+	background-size: cover;
+	float: left;
+	margin-left: 24px;
+}
+.phoneh{
+	margin-left: 58px;
+	color:  #4d8b55;
+	font-weight: bolder;
+}
+.numb{
+	margin-left:58px;
+	color: white;
+}
+.numa{
+	margin-left:58px;
+	color: white;
+}
+.subscribe{
+	width: 30%;
+	height: 100%;
+	float: right;
+	
+	margin-right: 20px;
+	margin-top: 0px;
+}
+
+.subh{
+	color: #4D8B55;
+font-weight: 700;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+/*
+.forma{
+	padding: 12px;
+	border-radius: 30px;
+	background-color: white;
+	width: 274px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+	
+}
+.forma input{
+	border: none;
+}
+
+.btns{
+	background-color: #4d8b55;
+	color: white;
+	padding:4px;
+	border: none;
+	width: 100px;
+	border-radius: 30px;
+}
+*/
+/*
+.forma{
+	padding: 20px;
+	position: relative;
+}
+*/
+.footerbtn{
+	padding: 20px;
+	position: relative;
+	width: 250px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+.btny{
+	position: absolute;
+	margin-left: 198px;
+	margin-top: -78px;
+}
+.btns{
+	position: absolute;
+	
+	padding: 20px;
+	border-radius: 30px;
+	background-color:  #4D8B55;
+	border: none;
+	margin-top:21px;
+}
+
+
